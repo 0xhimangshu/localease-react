@@ -1,0 +1,58 @@
+:root {
+  --primary: #4F46E5;
+  --primary-light: #6366F1;
+  --primary-dark: #3730A3;
+  --secondary: #EC4899;
+  --secondary-light: #F472B6;
+  --dark: #111827;
+  --light: #F8FAFC;
+  --surface: rgba(255, 255, 255, 0.85);
+  --surface-hover: rgba(255, 255, 255, 0.98);
+  
+  --transition-bezier: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --card-border: 1px solid rgba(255, 255, 255, 0.6);
+  --card-radius: 28px;
+  --btn-radius: 100px;
+}
+
+[data-theme="dark"] {
+  --primary: #6366F1;
+  --primary-light: #818CF8;
+  --primary-dark: #4F46E5;
+  --secondary: #F472B6;
+  --secondary-light: #F9A8D4;
+  --dark: #ffffff;
+  --light: #1a1a1a;
+  --surface: rgba(40, 40, 40, 0.85);
+  --surface-hover: rgba(50, 50, 50, 0.98);
+}
+
+[data-theme="dark"] .navbar {
+  background: var(--light);
+}
+
+[data-theme="dark"] .glass-card {
+  background: var(--surface);
+  /* backdrop-filter: blur(24px); */
+  border: none;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: var(--light) !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: var(--light) !important;
+}
+
+[data-theme="dark"] {
+  color: var(--dark);
+}
+
+[data-theme="dark"] p {
+  color: #E5E7EB;
+}
+
+[data-theme="dark"] .text-muted {
+  color: #9CA3AF !important;
+}

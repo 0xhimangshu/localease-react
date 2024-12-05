@@ -1,0 +1,39 @@
+.glass-card {
+  background: var(--surface);
+  border-radius: var(--card-radius);
+  border: var(--card-border);
+  box-shadow: 0 8px 32px rgb(0 0 0 / 6%);
+  transition: transform 0.5s var(--transition-bezier);
+}
+
+.glass-card:hover {
+  background: var(--surface-hover);
+  transform: translateY(-12px) scale(1.02);
+}
+
+.btn-gradient {
+  background: linear-gradient(145deg, var(--primary), var(--primary-dark));
+  border: none;
+  padding: 16px 40px;
+  border-radius: var(--btn-radius);
+  font-weight: 600;
+  transition: all 0.4s var(--transition-bezier);
+}
+
+.btn-gradient:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 32px rgb(79 70 229 / 35%);
+  background: linear-gradient(145deg, var(--primary-light), var(--primary));
+}
+
+.service-icon {
+  color: var(--primary);
+  transition: all 0.4s var(--transition-bezier);
+  width: 45px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.service-icon:hover {
+  transform: scale(1.15) rotate(5deg);
+}

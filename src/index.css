@@ -1,0 +1,5 @@
+/* Add this to your global CSS */
+main, 
+.main-content {
+  padding-top: calc(64px + 10px); /* 64px is navbar height (h-16) + 10px extra space */
+} 
